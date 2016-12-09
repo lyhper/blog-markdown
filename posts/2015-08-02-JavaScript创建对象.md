@@ -1,3 +1,8 @@
+---
+title: JavaScript创建对象
+date: 2015-08-02
+---
+
 JavaScript主要通过八种方式创建对象，包括：
 - 创建Object的实例
 - 工厂模式
