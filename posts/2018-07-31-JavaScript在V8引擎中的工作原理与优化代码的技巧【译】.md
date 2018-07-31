@@ -71,7 +71,7 @@ V8引擎还在内部使用多个线程：
 内联是用被调用函数的主体来替换调用代码（调用函数的代码行）的过程。
 这个简单的步骤使以下优化更有意义。
 
-![内联](https://raw.githubusercontent.com/lyhper/blog-markdown/master/img/inline.pnginline)
+![内联](https://raw.githubusercontent.com/lyhper/blog-markdown/master/img/inline.png)
 
 ## 隐藏类
 
