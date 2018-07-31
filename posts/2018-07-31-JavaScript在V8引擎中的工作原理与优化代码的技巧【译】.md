@@ -135,7 +135,7 @@ V8利用另一种技术来优化动态类型语言，称为内联缓存。内联
 
 内联缓存也是为什么相同类型的对象共享隐藏类非常重要的原因。如果你创建两个相同类型和不同隐藏类的对象（正如我们之前的例子中所做的那样），V8将无法使用内联缓存，因为即使这两个对象属于同一类型，它们对应的隐藏类为其属性分配不同的偏移量。
 
-![内联缓存](https://raw.githubusercontent.com/lyhper/blog-markdown/master/img/inline-caching.jpg)
+![内联缓存](https://raw.githubusercontent.com/lyhper/blog-markdown/master/img/inline-caching.png)
 
 这两个对象基本相同，但“a”和“b”属性是按不同顺序创建的。
 
